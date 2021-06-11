@@ -16,7 +16,7 @@
 
 __WebApp__ _(Lernprogramm)_ wurde mit HTML, CSS und JavaScript erstellt und mittels Entwicklerwerkzeuge im Browser `Chrome` überprüft.
 
-
+---
 ## Beschreibung
 
 Das Lernprogramm hat folgende Funktionalität:
@@ -32,4 +32,4 @@ Internettechnologien und Allgemein(__Button AJAX__)
 
 ## Erweiterung/Verbesserung des Belegs
 
-Als mögliche erweiterung kann man eine Nutzerverwaltung implementieren, um Fortschrittsdaten auf dem Serever zuspeichern.
+Als mögliche erweiterung kann man eine Nutzerverwaltung implementieren, um Fortschrittsdaten von einem Benutzer auf dem Serever zuspeichern.
