@@ -294,7 +294,7 @@ const internettechnologien =
     },
     {
         text: "Was ist ein SSL?",
-        answers: [{text: "Security certificate", value: 1}, {text: "Protocol", value: 0}, {text: "Portal", value: 0}, {text: "DNS", value: 0}]
+        answers: [{text: "Security certificate", value: 1}, {text: "Sockets", value: 0}, {text: "Portal", value: 0}, {text: "DNS", value: 0}]
 
     },
     {
