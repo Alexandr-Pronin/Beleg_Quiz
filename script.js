@@ -144,7 +144,7 @@ function Init() {
     let btns = document.querySelectorAll("button");
 
     for (let i = 0; i < btns.length; i++) {
-        //ereignisse für jede einzelne Taste
+        //ereignisse für jede einzelne Taste bilden
         //Die Funktion Click() wird aufgerufen, wenn die Schaltfläche angeklickt wird
         btns[i].addEventListener("click", function (e) {
             Click(e.target.getAttribute("index"));
@@ -156,14 +156,14 @@ function Init() {
 function Click(index) {
     //index der richtigen Antworten ermitteln
     let correct = quiz.Click(index);
-    //let correct = fragen[index].value;
+    ////let correct = fragen[index].value;
     //Alle Tasten finden
     let btns = document.querySelectorAll("button");
     //Die Tasten grau machen  <button class="button button_passive" style="font-size:2vw;" >Unclicked button</button><br>
     for (let i = 0; i < btns.length; i++) {
         btns[i].className = "button button_passive";
     }
-    //Wenn es sich um ein Quiz mit richtigen Antworten handelt, markieren wir die richtige Antwort in grün und die falsche Antwort in rot
+    //wir markieren  die richtige Antwort in grün und die falsche Antwort in rot
     if (correct >= 0) {
         btns[correct].className = "button button_correct";
     }
@@ -176,7 +176,7 @@ function Click(index) {
 
 
 
-rest.onclick = function () { // überschreibt einen vorhandenen Handler
+rest.onclick = function () { // überschreibt einen vorhandenen Handler für AJAX
     xhrHandler();
     fragesatz.innerHTML = "<img src='image/load.gif'  width='70%' height='80%'  float='left' overflow= 'hidden'/>";
     buttonsElem.innerHTML = "";
@@ -220,7 +220,7 @@ function shuffle(array) {
 
 
 
-// erzeugt ein JavaScript-Objekt (Kann für JSON in literal genutzt werden)))
+// erzeugt ein JavaScript-Objekt (damit kann es für JSON in literal genutzt werden)))
 const mathefragen =
     [
 //1
@@ -294,7 +294,7 @@ const internettechnologien =
     },
     {
         text: "Was ist ein SSL?",
-        answers: [{text: "Security certificate", value: 1}, {text: "Sockets", value: 0}, {text: "Portal", value: 0}, {text: "DNS", value: 0}]
+        answers: [{text: "Security certificate", value: 1}, {text: "Socket", value: 0}, {text: "Portal", value: 0}, {text: "DNS", value: 0}]
 
     },
     {

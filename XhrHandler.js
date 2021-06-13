@@ -1,7 +1,7 @@
 "use strict"
 let frageID = ["3187", "3194", "3195","3197","3198","3200","3203","3202"];
 let final_result = Array();
-let status;
+let status = null;
 
 
     function xhrHandler() {
