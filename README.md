@@ -8,7 +8,7 @@
 - `revdate`: 10.06.2021
 
 - `Quiz`: [Link](https://alexandr-pronin.github.io/apquizi/) _(online mittels GitPage)_
-- [Git Repository](https://github.com/Alexandr-Pronin/apquizi) 
+- [Git Repository](https://alexandr-pronin.github.io/Beleg_Quiz/) 
 
 
 ---
